@@ -29,7 +29,7 @@ Before you can run this application, you need to ensure you have **Docker Engine
     - Before Docker 20.10 (and Docker Compose V1):
     ```bash
     docker --version
-    docker-compose --version
+    docker-compose version
     ```
     - With Docker 20.10 and later (Docker Compose V2):
     ```bash
@@ -64,7 +64,7 @@ Before you can run this application, you need to ensure you have **Docker Engine
 1.  **Enter the website URL**
 After the installation is complete, please visit the NeoEdge Central login page at: https://neoedge-central-domain/login
 
-![Website Screenshot](https://github.com/eCloudEdge-Digital/neoedge-central-user-manual.git/readme-images/login.png)
+![Website Screenshot](https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/login.png)
     
 2. **Log in with the default user**
 Please login with the default 
