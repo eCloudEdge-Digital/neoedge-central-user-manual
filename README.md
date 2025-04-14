@@ -69,8 +69,8 @@ After the installation is complete, please visit the NeoEdge Central login page 
     
 2. **Log in with the default user**
 
-Please login with the default 
-- deafult user: aiot@ecloudedge.com
+Please login with the default user
+- deafult user account: aiot@ecloudedge.com
 - password of the default user: A!oT@6689
 
 
