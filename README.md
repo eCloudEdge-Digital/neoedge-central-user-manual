@@ -62,11 +62,13 @@ Before you can run this application, you need to ensure you have **Docker Engine
 
 ### Basic Usage
 1.  **Enter the website URL**
+
 After the installation is complete, please visit the NeoEdge Central login page at: https://neoedge-central-domain/login
 
 ![Website Screenshot](https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/login.png)
     
 2. **Log in with the default user**
+
 Please login with the default 
 - deafult user: aiot@ecloudedge.com
 - password of the default user: A!oT@6689
