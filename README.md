@@ -19,20 +19,20 @@ For more information, please visit [NeoEdge Central homepage](https://www.ecloud
 * **OS requirements:**
 This software is primarily supported on **Linux (amd64 architecture)**.
     - This software has been tested and is recommended for optimal stability and reliability on **Ubuntu 20.04 LTS** and **Ubuntu 22.04 LTS**.
+    
     - You can verify your OS version by opening a terminal and running the following command.
-
     ```bash
     lsb_release -a
     ```
 
 * **System requirements:**
-This software has been tested and is recommended for
+This software has been tested and is recommended for the the requirement below:
 
-| Component  | Minimum Requirement | 
-| --------   | -------- | 
-| CPU        | 2 cores| 
-| RAM        | 3 GB   | 
-| Disk       | 30 GB  | 
+    | Component  | Minimum Requirement | 
+    | --------   | -------- | 
+    | CPU        | 2 cores| 
+    | RAM        | 3 GB   | 
+    | Disk       | 30 GB  | 
 
 * **Docker& Docker Compose:** 
 Before you can run this application, you need to ensure you have **Docker Engine and Docker Compose** installed. 
@@ -91,4 +91,4 @@ Please login with the default user
 
 For more information, please visit 
 - [NeoEdge Central Quick Start (English)](https://www.youtube.com/playlist?list=PLUAJDbJOOHqx2JrZCZpMZT_nlDE_qKT2h).
-- [NeoEdge Central Quick Start (Chinese)] (https://www.youtube.com/watch?v=rTCuhZzv0oE&list=PLUAJDbJOOHqzpqJ9g9IN0j4ClaQMbtXE8)
+- [NeoEdge Central Quick Start (Chinese)](https://www.youtube.com/watch?v=rTCuhZzv0oE&list=PLUAJDbJOOHqzpqJ9g9IN0j4ClaQMbtXE8)
