@@ -1,8 +1,7 @@
-English | [繁體中文](./README-CN.md) 
 # NeoEdge Central
 NeoEdge Central is a cloud-based management platform allows you to easily manage, configure, and deploy IoT applications on remote gateways.
 
-For more information, please visit [NeoEdge Central homepage](https://www.ecloudvalley.com/neoedge-en/p/NeoEdgeCentral).
+For more information, please visit [NeoEdge Central homepage](https://www.ecloudedge.com).
 
 ## Table of Contents
 - [Installation](#installation)
@@ -18,13 +17,28 @@ For more information, please visit [NeoEdge Central homepage](https://www.ecloud
 ### Prerequisites
 
 * **OS requirements:**
-This software is primarily tested and supported on **Linux (amd64 architecture)**.
+This software is primarily supported on **Linux (amd64 architecture)**.
+    - This software has been tested and is recommended for optimal stability and reliability on **Ubuntu 20.04 LTS** and **Ubuntu 22.04 LTS**.
+    - You can verify your OS version by opening a terminal and running the following command.
 
+    ```bash
+    lsb_release -a
+    ```
+
+* **System requirements:**
+This software has been tested and is recommended for
+
+| Component  | Minimum Requirement | 
+| --------   | -------- | 
+| CPU        | 2 cores| 
+| RAM        | 3 GB   | 
+| Disk       | 30 GB  | 
 
 * **Docker& Docker Compose:** 
 Before you can run this application, you need to ensure you have **Docker Engine and Docker Compose** installed. 
     - You can find installation instructions for your operating system on the official Docker website: [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/).
-    - You can verify that Docker and Docker Compose are installed correctly by running the following commands in your terminal.
+    - This software has been tested and is recommended for optimal stability and reliability on **Docker Engine Version 28.0.4** and **Docker Compose Version v2.34.0**.
+    - You can verify that Docker and Docker Compose version by running the following commands in your terminal.
 
     - Before Docker 20.10 (and Docker Compose V1):
     ```bash
@@ -52,11 +66,11 @@ Before you can run this application, you need to ensure you have **Docker Engine
    -h
     Help
    -domain
-    Required. NeoEdge Central application's ip address or domain name.
+    Required. NeoEdge Central application's domain name, specified as either the IP address of the installed machine or a resolvable DNS domain name associated with it.
    -loglevel
     Optional (default "error").Log level including error, warn, info, debug. 
    -mode
-    Optional (default "cli"). Mode to run the installer,including tui or cli. 
+    Optional (default "cli"). Mode to run the installer,including tui (text-based user interface) or cli (command-line interface). 
    ```
 ## Usage
 
@@ -73,4 +87,8 @@ Please login with the default user
 - deafult user account: aiot@ecloudedge.com
 - password of the default user: A!oT@6689
 
+### Examples
 
+For more information, please visit 
+- [NeoEdge Central Quick Start (English)](https://www.youtube.com/playlist?list=PLUAJDbJOOHqx2JrZCZpMZT_nlDE_qKT2h).
+- [NeoEdge Central Quick Start (Chinese)] (https://www.youtube.com/watch?v=rTCuhZzv0oE&list=PLUAJDbJOOHqzpqJ9g9IN0j4ClaQMbtXE8)
