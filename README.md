@@ -30,8 +30,8 @@ This software has been tested and is recommended for the the requirement below:
 
     | Component  | Minimum Requirement | 
     | --------   | -------- | 
-    | CPU        | 2 cores| 
-    | RAM        | 3 GB   | 
+    | CPU        | 4 cores| 
+    | RAM        | 8 GB   | 
     | Disk       | 30 GB  | 
 
 * **Docker& Docker Compose:** 
