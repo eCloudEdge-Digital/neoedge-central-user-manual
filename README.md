@@ -1,7 +1,7 @@
 # NeoEdge Central
 NeoEdge Central is a cloud-based management platform allows you to easily manage, configure, and deploy IoT applications on remote gateways.
 
-For more information, please visit [NeoEdge Central homepage](https://www.ecloudedge.com).
+For more information, please visit [NeoEdge Central homepage](https://www.ecloudedge.com/).
 
 ## Table of Contents
 - [Installation](#installation)
