@@ -30,7 +30,7 @@ This software has been tested and is recommended for the the requirement below:
 
     | Component  | Minimum Requirement | 
     | --------   | -------- | 
-    | CPU        | 4 cores| 
+    | CPU        | 4 cores (Intel XeonCPU E5-2673 v3 @ 2.40GHz)| 
     | RAM        | 10 GB   | 
     | Disk       | 30 GB  | 
 
