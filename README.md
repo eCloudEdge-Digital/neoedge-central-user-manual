@@ -52,13 +52,13 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
     docker compose version
     ```
 ### Installation Steps
-1.  **Extract the Installer**
+1.  **Extract the Installer:**
     Unpack the installer.tar.gz archive into a dedicated installer directory using the following command:
 
     ```bash
     sudo tar xfvz installer.tar.gz
     ```
-2. **Execute the Installer**
+2. **Execute the Installe:**
    Navigate into the newly created installer directory and run the installer-linux-amd64 executable. The estimated installation time is approximately 10 minutes:
    ```bash
    cd installer
@@ -75,8 +75,8 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
    -mode
     Optional (default "cli"). Mode to run the installer,including tui (text-based user interface) or cli (command-line interface). 
    ```
-3. **Verify Successful Installation**
-   You can confirm that NeoEdge Central has been installed successfully by checking for a specific message in either the installer log file or the standard output displayed during the installation process. Look for the following confirmation:
+3. **Verify Successful Installation:**
+   You can confirm that NeoEdge Central has been installed successfully by checking for a specific message in either the installer.log file or the standard output displayed during the installation process. Look for the following confirmation:
    ```bash
    #standard output 
    Installation completed successfully.
@@ -86,22 +86,20 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
    ```
   
 ### Uninstallation Steps  
-1.  **Uninstall (TBA)**
+1.  **Uninstall (TBA):**
 
 ## Getting Started
 Once the installation is complete, you can access and begin using NeoEdge Central.
 
 ### Basic Usage
-1. **Accessing NeoEdge Central**
-
+1. **Accessing NeoEdge Central:**
 Open your web browser and navigate to the NeoEdge Central login page using the domain name you specified during installation : 
 ```bash
 https://<neoedge-central-domain>/login
 ```
 ![Website Screenshot](https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/login.png)
     
-2. **Initial Login**
-
+2. **Initial Login:**
 Log in using the default credentials
 - Default Username: aiot@ecloudedge.com
 - Default Password: A!oT@6689
