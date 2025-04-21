@@ -15,18 +15,18 @@ For more information, please visit [NeoEdge Central homepage](https://www.ecloud
 ## Installation
 
 ### Prerequisites
-
+Before proceeding with the installation, ensure your system meets the following requirements.
 * **OS requirements:**
-This software is primarily supported on **Linux (amd64 architecture)**.
-    - This software has been tested and is recommended for optimal stability and reliability on **Ubuntu 20.04 LTS** and **Ubuntu 22.04 LTS**.
+NeoEdge Central is primarily supported on **Linux (amd64 architecture)**.
+    - For optimal stability and reliability, we highly recommend using **Ubuntu 20.04 LTS** and **Ubuntu 22.04 LTS**.
     
-    - You can verify your OS version by opening a terminal and running the following command.
+    - To verify your OS version, open your terminal and execute:.
     ```bash
     lsb_release -a
     ```
 
 * **System requirements:**
-This software has been tested and is recommended for the the requirement below:
+The following minimum system specifications are recommended for smooth operation::
 
     | Component  | Minimum Requirement | 
     | --------   | -------- | 
