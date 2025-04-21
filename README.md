@@ -6,57 +6,60 @@ For more information, please visit [NeoEdge Central homepage](https://www.ecloud
 ## Table of Contents
 - [Installation](#installation)
     - [Prerequisites](#prerequisites)
-    - [Steps](#steps)
-- [Usage](#usage)
+    - [Installation Steps](#installation-steps)
+    - [Uninstallation Steps](#uninstallation-steps)
+- [Getting Started](#getting-started)
     - [Basic Usage](#basic-usage)
-    - [Examples](#examples)
+    - [Further Exploration](#further-exploration)
 
 
 ## Installation
 
 ### Prerequisites
 Before proceeding with the installation, ensure your system meets the following requirements.
-* **OS requirements:**
+* **OS Requirements:**
 NeoEdge Central is primarily supported on **Linux (amd64 architecture)**.
     - For optimal stability and reliability, we highly recommend using **Ubuntu 20.04 LTS** and **Ubuntu 22.04 LTS**.
     
-    - To verify your OS version, open your terminal and execute:.
+    - To verify your OS version, open your terminal and execute:
     ```bash
     lsb_release -a
     ```
 
-* **System requirements:**
+* **System Requirements:**
 The following minimum system specifications are recommended for smooth operation::
 
     | Component  | Minimum Requirement | 
     | --------   | -------- | 
     | CPU        | 4 cores (Intel XeonCPU E5-2673 v3 @ 2.40GHz)| 
-    | RAM        | 10 GB   | 
+    | RAM        | 16 GB   | 
     | Disk       | 30 GB  | 
 
 * **Docker& Docker Compose:** 
-Before you can run this application, you need to ensure you have **Docker Engine and Docker Compose** installed. 
-    - You can find installation instructions for your operating system on the official Docker website: [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/).
-    - This software has been tested and is recommended for optimal stability and reliability on **Docker Engine Version 28.0.4** and **Docker Compose Version v2.34.0**.
-    - You can verify that Docker and Docker Compose version by running the following commands in your terminal.
+Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Compose** installed. 
+    - Detailed installation instructions for your specific operating system can be found on the [official Docker website](https://docs.docker.com/engine/install/).
+    - For optimal stability and reliability, we highly recommend using **Docker Engine Version 28.0.4** and **Docker Compose Version v2.34.0**.
+    - You can verify that Docker and Docker Compose version running the following terminal commands.
 
-    - Before Docker 20.10 (and Docker Compose V1):
+    - For Docker versions prior to 20.10 (Docker Compose V1):
     ```bash
     docker --version
     docker-compose version
     ```
-    - With Docker 20.10 and later (Docker Compose V2):
+    - For Docker version 20.10 and later (Docker Compose V2):
     ```bash
     docker --version
     docker compose version
     ```
-### Steps
-1.  **Unpack installer.tar.gz into installer folder**
+### Installation Steps
+1.  **Extract the Installer**
+    Unpack the installer.tar.gz archive into a dedicated installer directory using the following command:
+
     ```bash
     sudo tar xfvz installer.tar.gz
     ```
-2. **Run the installer-linux-amd64 executable**
-
+2. **Execute the Installer**
+   Navigate into the newly created installer directory and run the installer-linux-amd64 executable. The estimated installation time is approximately 10 minutes:
    ```bash
    cd installer
    sudo ./installer-linux-amd64 -domain <domain> 
@@ -72,23 +75,39 @@ Before you can run this application, you need to ensure you have **Docker Engine
    -mode
     Optional (default "cli"). Mode to run the installer,including tui (text-based user interface) or cli (command-line interface). 
    ```
-## Usage
+3. **Verify Successful Installation**
+   You can confirm that NeoEdge Central has been installed successfully by checking for a specific message in either the installer log file or the standard output displayed during the installation process. Look for the following confirmation:
+   ```bash
+   #standard output 
+   Installation completed successfully.
+
+   #installer.log message
+   {"time":"*","level":"INFO","msg":"Installation completed successfully."}
+   ```
+  
+### Uninstallation Steps  
+1.  **Uninstall (TBA)**
+
+## Getting Started
+Once the installation is complete, you can access and begin using NeoEdge Central.
 
 ### Basic Usage
-1.  **Enter the website URL**
+1. **Accessing NeoEdge Central**
 
-After the installation is complete, please visit the NeoEdge Central login page at: https://neoedge-central-domain/login
-
+Open your web browser and navigate to the NeoEdge Central login page using the domain name you specified during installation : 
+```bash
+https://<neoedge-central-domain>/login
+```
 ![Website Screenshot](https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/login.png)
     
-2. **Log in with the default user**
+2. **Initial Login**
 
-Please login with the default user
-- deafult user account: aiot@ecloudedge.com
-- password of the default user: A!oT@6689
+Log in using the default credentials
+- Default Username: aiot@ecloudedge.com
+- Default Password: A!oT@6689
 
-### Examples
+### Further Exploration
 
-For more information, please visit 
+For more in-depth information and practical demonstrations, please refer to the following resources:
 - [NeoEdge Central Quick Start (English)](https://www.youtube.com/playlist?list=PLUAJDbJOOHqx2JrZCZpMZT_nlDE_qKT2h).
-- [NeoEdge Central Quick Start (Chinese)](https://www.youtube.com/watch?v=rTCuhZzv0oE&list=PLUAJDbJOOHqzpqJ9g9IN0j4ClaQMbtXE8)
+- [NeoEdge Central Quick Start (Chinese)](https://www.youtube.com/playlist?list=PLUAJDbJOOHqzpqJ9g9IN0j4ClaQMbtXE8)
