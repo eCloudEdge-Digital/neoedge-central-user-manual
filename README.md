@@ -30,8 +30,8 @@ The following minimum system specifications are recommended for smooth operation
 
     | Component  | Minimum Requirement | 
     | --------   | -------- | 
-    | CPU        | 2 cores| 
-    | RAM        | 3 GB   | 
+    | CPU        | 4 cores (Intel XeonCPU E5-2673 v3 @ 2.40GHz)| 
+    | RAM        | 10 GB   | 
     | Disk       | 30 GB  | 
 
 * **Docker& Docker Compose:** 
