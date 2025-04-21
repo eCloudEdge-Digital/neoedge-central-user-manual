@@ -33,7 +33,7 @@ The following minimum system specifications are recommended for smooth operation
     | --------   | -------- | 
     | CPU        | 4 cores (Intel XeonCPU E5-2673 v3 @ 2.40GHz)| 
     | RAM        | 16 GB   | 
-    | Disk       | 15 GB  | 
+    | Disk       | 32GB SSD  | 
 
 * **Docker& Docker Compose:** 
 Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Compose** installed. 
