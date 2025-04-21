@@ -21,13 +21,13 @@ Before proceeding with the installation, ensure your system meets the following 
 NeoEdge Central is primarily supported on **Linux (amd64 architecture)**.
     - For optimal stability and reliability, we highly recommend using **Ubuntu 20.04 LTS** and **Ubuntu 22.04 LTS**.
     
-    - To verify your OS version, open your terminal and execute:
+    - To verify your OS version, execute the following terminal command:
     ```bash
     lsb_release -a
     ```
 
 * **System Requirements:**
-The following minimum system specifications are recommended for smooth operation::
+The following minimum system specifications are recommended for smooth operation:
 
     | Component  | Minimum Requirement | 
     | --------   | -------- | 
@@ -58,7 +58,7 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
     ```bash
     sudo tar xfvz installer.tar.gz
     ```
-2. **Execute the Installe:**
+2. **Execute the Installer:**
    Navigate into the newly created installer directory and run the installer-linux-amd64 executable. The estimated installation time is approximately 10 minutes:
    ```bash
    cd installer
