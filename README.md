@@ -33,7 +33,13 @@ The following minimum system specifications are recommended for smooth operation
     | --------   | -------- | 
     | CPU        | 4 cores (Intel XeonCPU E5-2673 v3 @ 2.40GHz)| 
     | RAM        | 16 GB   | 
-    | Disk       | 32GB SSD  | 
+    | Disk       | 32GB SSD  |
+  
+* **TPM2.0 Requirements:**
+TPM2.0 is mandatory for NeoEdge Central on encrypt and protect essentail data and keys. Please ensure your machine or virtual machine is equipped with TPM2.0.
+    - For Azure, please refer to <a href="https://learn.microsoft.com/en-us/azure/virtual-machines/trusted-launch">this doc</a> to enable trused launch on VM.
+    - For AWS, please refer to <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/nitrotpm.html">this doc</a> to enable NitroTPM on EC2.
+    - For GCP, please refer to <a href="https://cloud.google.com/compute/shielded-vm/docs/shielded-vm#vtpm">this doc</a> to enable vTPM on GCP VM.
 
 * **Docker& Docker Compose:** 
 Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Compose** installed. 
