@@ -103,7 +103,7 @@ curl --location -k -X POST 'https://<neoedge-central-domain>/api/bootstrap/gener
 ```
 
 📣 **Reminder:** .
-* **Use the lastest generated license request file:** If you generated the license request file multiple times, please use the most recent version for your application, as each generation creates unique license content.
+* **Use the latest generated license request file:** If you've generated the license request file multiple times, please use the most recent version for your application, as each generation creates unique license content.
 
 
 2. **Start Your License Application:**
