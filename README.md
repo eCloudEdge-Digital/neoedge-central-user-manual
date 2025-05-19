@@ -7,6 +7,7 @@ For more information, please visit [NeoEdge Central homepage](https://www.ecloud
 - [Installation](#installation)
     - [Prerequisites](#prerequisites)
     - [Installation Steps](#installation-steps)
+    - [License Application](#license-application)
     - [Uninstallation Steps](#uninstallation-steps)
 - [Getting Started](#getting-started)
     - [Basic Usage](#basic-usage)
@@ -90,7 +91,50 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
    #installer.log message
    {"time":"*","level":"INFO","msg":"Installation completed successfully."}
    ```
-  
+### License Application (TBU)
+NeoEdge Central application requires a valid license for use. Please follow these steps to apply:
+
+1. **Download License Request File:**
+To apply for a license, you must first generate a license request file with the following command. The generated file will then be available for download.
+
+```bash
+curl --location -k -X POST 'https://<neoedge-central-domain>/api/bootstrap/generate-file' \
+--header 'Origin: <neoedge-central-domain>' > license-request.json \
+```
+
+📣 **Reminder:** .
+* **Use the lastest generated license request file:** If you generated the license request file multiple times, please use the most recent version for your application, as each generation creates unique license content.
+
+
+2. **Start Your License Application:**
+To ensure you receive the correct license, please first decide the number of gateways and advanced apps your deployment requires.
+
+Once you have this information, please have your downloaded license request file ready and contact your ECE sales representative to start your application.
+
+If you have any questions or need further clarification, please don't hesitate to contact us at [sales@ecloudedge.com](mailto:sales@ecloudedge.com).
+
+2. **Install NeoEdge Central License:**
+After receiving the license, please use the following command to install the license and set up the initial user account and password.
+
+
+```bash
+curl --location -k -X POST 'https://<neoedge-central-domain>/api/bootstrap' \
+--header 'Origin:<neoedge-central-domain>' \
+-F 'file=@<license>' \
+-F 'json={"account": "<user account>","password": "<password>"}'
+```
+📣 **Reminder:** .
+* **User account (Email):** 
+    * A valid email address is required. For example: rick.peng@ecloudedge.com.
+* **User password:** 
+    * For security reasons, your password cannot be the same as your email address (e.g.,rick.peng@ecloudedge.com) and should not contain any part of your email address (e.g.,rick.peng).
+    * Your password must be between 8 and 64 characters in length.
+    * To ensure strong security, your password must include at least one:
+        * Uppercase letter (A-Z)
+        * Lowercase letter (a-z)
+        * Digit (0-9)
+        * Special character (e.g., !@#$%^&*)
+
 ### Uninstallation Steps  
 1.  **Uninstall (TBA):**
 
