@@ -91,8 +91,8 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
    #installer.log message
    {"time":"*","level":"INFO","msg":"Installation completed successfully."}
    ```
-### License Application (TBU)
-NeoEdge Central application requires a valid license for use. Please follow these steps to apply:
+### License Application 
+NeoEdge Central application requires a valid license for use. Please follow these steps to apply: (TBU)
 
 1. **Download License Request File:**
 To apply for a license, you must first generate a license request file with the following command. The generated file will then be available for download.
