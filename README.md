@@ -107,13 +107,13 @@ curl --location -k -X POST 'https://<neoedge-central-domain>/api/bootstrap/gener
 
 
 2. **Start Your License Application:**
-To ensure you receive the correct license, please first decide the number of gateways and advanced apps your deployment requires.
+    To ensure you receive the correct license, please first decide the number of gateways and advanced apps your deployment requires.
 
-Once you have this information, please have your downloaded license request file ready and contact your ECE sales representative to start your application.
+    Once you have this information, please have your downloaded license request file ready and contact your ECE sales representative to start your application.
 
-If you have any questions or need further clarification, please don't hesitate to contact us at [sales@ecloudedge.com](mailto:sales@ecloudedge.com).
+    If you have any questions or need further clarification, please don't hesitate to contact us at [sales@ecloudedge.com](mailto:sales@ecloudedge.com).
 
-2. **Install NeoEdge Central License:**
+3. **Install NeoEdge Central License:**
 After receiving the license, please use the following command to install the license and set up the initial user account and password.
 
 
