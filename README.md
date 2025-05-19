@@ -102,7 +102,7 @@ To apply for a license, you must first generate a license request file with the 
     --header 'Origin: <neoedge-central-domain>' > license-request.json \
     ```
 
-    📣 **Reminder:** .
+    📣 **Reminder:** 
     * **Use the latest generated license request file:** If you've generated the license request file multiple times, please use the most recent version for your application, as each generation creates unique license content.
 
 
@@ -123,7 +123,7 @@ After receiving the license, please use the following command to install the lic
     -F 'file=@<license>' \
     -F 'json={"account": "<user account>","password": "<password>"}'
     ```
-    📣 **Reminder:** .
+    📣 **Reminder:** 
     * **User account (Email):** 
         * A valid email address is required. For example: rick.peng@ecloudedge.com.
     * **User password:** 
