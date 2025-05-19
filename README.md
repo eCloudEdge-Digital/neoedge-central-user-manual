@@ -19,7 +19,7 @@ For more information, please visit [NeoEdge Central homepage](https://www.ecloud
 ### Prerequisites
 Before proceeding with the installation, ensure your system meets the following requirements.
 * **OS Requirements:**
-NeoEdge Central is primarily supported on **Linux (amd64 architecture)**.
+NeoEdge Central is supported on **Linux (amd64 architecture)**.
     - For optimal stability and reliability, we highly recommend using **Ubuntu 20.04 LTS** and **Ubuntu 22.04 LTS**.
     
     - To verify your OS version, execute the following terminal command:
@@ -97,13 +97,13 @@ NeoEdge Central application requires a valid license for use. Please follow thes
 1. **Download License Request File:**
 To apply for a license, you must first generate a license request file with the following command. The generated file will then be available for download.
 
-```bash
-curl --location -k -X POST 'https://<neoedge-central-domain>/api/bootstrap/generate-file' \
---header 'Origin: <neoedge-central-domain>' > license-request.json \
-```
+    ```bash
+    curl --location -k -X POST 'https://<neoedge-central-domain>/api/bootstrap/generate-file' \
+    --header 'Origin: <neoedge-central-domain>' > license-request.json \
+    ```
 
-📣 **Reminder:** .
-* **Use the latest generated license request file:** If you've generated the license request file multiple times, please use the most recent version for your application, as each generation creates unique license content.
+    📣 **Reminder:** .
+    * **Use the latest generated license request file:** If you've generated the license request file multiple times, please use the most recent version for your application, as each generation creates unique license content.
 
 
 2. **Start Your License Application:**
@@ -117,23 +117,23 @@ curl --location -k -X POST 'https://<neoedge-central-domain>/api/bootstrap/gener
 After receiving the license, please use the following command to install the license and set up the initial user account and password.
 
 
-```bash
-curl --location -k -X POST 'https://<neoedge-central-domain>/api/bootstrap' \
---header 'Origin:<neoedge-central-domain>' \
--F 'file=@<license>' \
--F 'json={"account": "<user account>","password": "<password>"}'
-```
-📣 **Reminder:** .
-* **User account (Email):** 
-    * A valid email address is required. For example: rick.peng@ecloudedge.com.
-* **User password:** 
-    * For security reasons, your password cannot be the same as your email address (e.g.,rick.peng@ecloudedge.com) and should not contain any part of your email address (e.g.,rick.peng).
-    * Your password must be between 8 and 64 characters in length.
-    * To ensure strong security, your password must include at least one:
-        * Uppercase letter (A-Z)
-        * Lowercase letter (a-z)
-        * Digit (0-9)
-        * Special character (e.g., !@#$%^&*)
+    ```bash
+    curl --location -k -X POST 'https://<neoedge-central-domain>/api/bootstrap' \
+    --header 'Origin:<neoedge-central-domain>' \
+    -F 'file=@<license>' \
+    -F 'json={"account": "<user account>","password": "<password>"}'
+    ```
+    📣 **Reminder:** .
+    * **User account (Email):** 
+        * A valid email address is required. For example: rick.peng@ecloudedge.com.
+    * **User password:** 
+        * For security reasons, your password cannot be the same as your email address (e.g.,rick.peng@ecloudedge.com) and should not contain any part of your email address (e.g.,rick.peng).
+        * Your password must be between 8 and 64 characters in length.
+        * To ensure strong security, your password must include at least one:
+            * Uppercase letter (A-Z)
+            * Lowercase letter (a-z)
+            * Digit (0-9)
+            * Special character (e.g., !@#$%^&*)
 
 ### Uninstallation Steps  
 1.  **Uninstall (TBA):**
