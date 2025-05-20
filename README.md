@@ -149,10 +149,6 @@ https://<neoedge-central-domain>/login
 ```
 ![Website Screenshot](https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/login.png)
     
-2. **Initial Login:**
-Log in using the default credentials
-- Default Username: aiot@ecloudedge.com
-- Default Password: A!oT@6689
 
 ### Further Exploration
 
