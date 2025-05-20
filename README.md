@@ -128,12 +128,12 @@ After receiving the license, please use the following command to install the lic
         * A valid email address is required. For example: rick.peng@ecloudedge.com.
     * **User password:** 
         * For security reasons, your password cannot be the same as your email address (e.g.,rick.peng@ecloudedge.com) and should not contain any part of your email address (e.g.,rick.peng).
-        * Your password must be between 8 and 64 characters in length.
+        * Your password must be more than 8 and less than64 characters in length.
         * To ensure strong security, your password must include at least one:
             * Uppercase letter (A-Z)
             * Lowercase letter (a-z)
             * Digit (0-9)
-            * Special character (e.g., !@#$%^&*)
+            * Special character (e.g., ~, !, @, #, $, %, ^, &, *, (, ), \, -, _, +, =, [, ], {, }, |, ;, <, >, ?, /)
 
 ### Uninstallation Steps  
 1.  **Uninstall (TBA):**
