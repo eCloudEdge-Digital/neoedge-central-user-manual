@@ -141,6 +141,15 @@ After receiving the license, please use the following command to install the lic
 ## Getting Started
 Once the installation is complete, you can access and begin using NeoEdge Central.
 
+### Firewall 
+1. Below firewall policy are necessarry on your host.
+    | Source IP  | Source Port | Destination IP | Destination Port  
+    | --------   | -------- | -------- | -------- | 
+    | Any or your Browser | Any | ```<neoedge-central-ip>``` | 443 
+    | Any or your Browser | Any | ```<neoedge-central-ip>``` | 8443 
+    | Any or Gateway | Any | ```<neoedge-central-ip>``` | 443
+   | Any or Gateway | Any | ```<neoedge-central-ip>``` | 8883
+
 ### Basic Usage
 1. **Accessing NeoEdge Central:**
 Open your web browser and navigate to the NeoEdge Central login page using the domain name you specified during installation : 
