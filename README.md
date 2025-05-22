@@ -142,7 +142,7 @@ NeoEdge Central application requires a valid license for use. Please follow thes
 ### Uninstallation Steps  
 
 1. **Uninstall:**
-   To uninstall NeoEdge Central, run the following command. You'll then be prompted to decide if you want to keep your configuration files, such as your license and data:
+   Uninstall NeoEdge Central by executing the following command. You'll then be prompted to decide if you want to keep your configuration files, such as your license and data:
 
     ```bash
     # uninstall NeoEdge Central by executing the following command
