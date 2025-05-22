@@ -108,7 +108,11 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
 NeoEdge Central application requires a valid license for use. Please follow these steps to apply: 
 
 1. **Download License Request File:**
-   To apply for a license, you must first download a license request file.
+   To apply for a license, you must first download a license request file. Open your web browser and navigate to the NeoEdge Central login page: 
+  
+   ```bash
+   https://<neoedge-central-domain>/login
+   ```
 
 <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-request-download.png" alt="License Request" width="95%" height="auto" align="center" margin="20px">
 
