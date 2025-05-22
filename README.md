@@ -91,19 +91,28 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
    #installer.log message
    {"time":"*","level":"INFO","msg":"Installation completed successfully."}
    ```
+
+4. **Configure Your Firewall:**
+   The following firewall policies are mandatory on your NeoEdge Central host:
+    
+    | Source IP  | Source Port | Destination IP | Destination Port  
+    | --------   | -------- | -------- | -------- | 
+    | Any or your Browser | Any | ```<neoedge-central-ip>``` | 443 
+    | Any or Gateway | Any | ```<neoedge-central-ip>``` | 8443 
+    | Any or Gateway | Any | ```<neoedge-central-ip>``` | 8883
+    
 ### License Application 
 NeoEdge Central application requires a valid license for use. Please follow these steps to apply: (TBU)
 
 1. **Download License Request File:**
-To apply for a license, you must first generate a license request file with the following command. The generated file will then be available for download.
+   To apply for a license, you must first dowload a license request file.
 
-    ```bash
-    curl --location -k -X POST 'https://<neoedge-central-domain>/api/bootstrap/generate-file' \
-    --header 'Origin: <neoedge-central-domain>' > license-request.json \
-    ```
+<!-- ![License Request](https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-request.png) -->
+
+<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-request.png" alt="License Request" width="50%" height="auto" align="center">
 
     📣 **Reminder:** 
-    * **Use the latest generated license request file:** If you've generated the license request file multiple times, please use the most recent version for your application, as each generation creates unique license content.
+    * **Use the latest downloaded license request file:** If you've generated the license request file multiple times, please use the most recent version for your application, as each generation creates unique license content.
 
 
 2. **Start Your License Application:**
@@ -114,26 +123,16 @@ To apply for a license, you must first generate a license request file with the 
     If you have any questions or need further clarification, please don't hesitate to contact us at [sales@ecloudedge.com](mailto:sales@ecloudedge.com).
 
 3. **Install NeoEdge Central License:**
-After receiving the license, please use the following command to install the license and set up the initial user account and password.
+    After license is issued, please upload the received license key file to install the license and set up the initial user account and password.
 
+<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-upload.png" alt="License Upload" width="50%" height="auto" align="central">
 
-    ```bash
-    curl --location -k -X POST 'https://<neoedge-central-domain>/api/bootstrap' \
-    --header 'Origin:<neoedge-central-domain>' \
-    -F 'file=@<license>' \
-    -F 'json={"account": "<user account>","password": "<password>"}'
-    ```
-    📣 **Reminder:** 
-    * **User account (Email):** 
-        * A valid email address is required. For example: rick.peng@ecloudedge.com.
-    * **User password:** 
-        * For security reasons, your password cannot be the same as your user account (e.g.,rick.peng@ecloudedge.com) and should not contain any part of your user account (e.g.,rick.peng).
-        * Your password must be between 8 and 64 characters in length.
-        * To ensure strong security, your password must include at least one:
-            * Uppercase letter (A-Z)
-            * Lowercase letter (a-z)
-            * Digit (0-9)
-            * Special character (e.g., ~, !, @, #, $, %, ^, &, *, (, ), \, -, _, +, =, [, ], {, }, |, ;, <, >, ?, /)
+<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/account.png" alt="Set Up Account" width="50%" height="auto" align="central">
+
+4. **Verify Successful License Installation:**
+   You can confirm that license has been installed successfully by seeing the follwoing message:
+   
+<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/setup-final.png" alt="Set Up Successfully" width="50%" height="auto" align="central">
 
 ### Uninstallation Steps  
 1.  **Uninstall (TBA):**
@@ -141,14 +140,6 @@ After receiving the license, please use the following command to install the lic
 ## Getting Started
 Once the installation is complete, you can access and begin using NeoEdge Central.
 
-### Firewall 
-1. The following firewall policies are mandatory on your host:
-    | Source IP  | Source Port | Destination IP | Destination Port  
-    | --------   | -------- | -------- | -------- | 
-    | Any or your Browser | Any | ```<neoedge-central-ip>``` | 443 
-    | Any or your Browser | Any | ```<neoedge-central-ip>``` | 8443 
-    | Any or Gateway | Any | ```<neoedge-central-ip>``` | 443
-    | Any or Gateway | Any | ```<neoedge-central-ip>``` | 8883
 
 ### Basic Usage
 1. **Accessing NeoEdge Central:**
