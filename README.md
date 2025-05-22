@@ -107,12 +107,15 @@ NeoEdge Central application requires a valid license for use. Please follow thes
 1. **Download License Request File:**
    To apply for a license, you must first download a license request file.
 
-<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-request.png" alt="License Request" width="90%" height="auto" align="center" margin="20px">
+<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-request.png" alt="License Request" width="95%" height="auto" align="center" margin="20px">
 
 
-    📣 **Reminder:** 
-    * **Use the latest downloaded license request file:** If you've generated the license request file multiple times, please use the most recent version for your application, as each generation creates unique license content.
+---
 
+📣 **Reminder:**   
+* **Use the latest downloaded license request file:**  If you've generated the license request file multiple times, please use the most recent version for your application, as each generation creates unique license content.s.
+
+---
 
 2. **Start Your License Application:**
     To ensure you receive the correct license, please first decide the number of gateways and advanced apps your deployment requires.
@@ -124,23 +127,19 @@ NeoEdge Central application requires a valid license for use. Please follow thes
 3. **Install NeoEdge Central License:**
     After license is issued, please upload the received license key file to install the license and set up the initial user account and password.
 
-<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-upload.png" alt="License Upload" width="90%" height="auto" align="central" margin="20px">
+<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-upload.png" alt="License Upload" width="95%" height="auto" align="central" margin="20px">
 
-<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/account.png" alt="Set Up Account" width="90%" height="auto" align="central" margin="20px">
+<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/account.png" alt="Set Up Account" width="95%" height="auto" align="central" margin="20px">
 
 4. **Verify Successful License Installation:**
    You can confirm that license has been installed successfully by seeing the follwoing message:
    
-<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/setup-final.png" alt="Set Up Successfully" width="90%" height="auto" align="central" margin="20px">
+<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/setup-final.png" alt="Set Up Successfully" width="95%" height="auto" align="central" margin="20px">
 
 ### Uninstallation Steps  
+
 1.  **Uninstall:**
     To uninstall NeoEdge Central, run the following command. You'll then be prompted to decide if you want to keep your configuration files, such as your license and data:
-
-    ```bash
-    # uninstall NeoEdge Central by executing the following command
-    cd /opt/neoedgecentral && sudo ./uninstaller-linux-amd64 
-    ```
 
     ```bash
     # uninstall NeoEdge Central by executing the following command
