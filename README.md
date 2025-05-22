@@ -83,7 +83,9 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
     Optional (default "cli"). Mode to run the installer,including tui (text-based user interface) or cli (command-line interface). 
    ```
 3. **Verify Successful Installation:**
-   You can confirm that NeoEdge Central has been installed successfully by checking for a specific message in either the installer.log file or the standard output displayed during the installation process. Look for the following confirmation:
+   You can confirm that NeoEdge Central has been installed successfully by checking for a specific message in either the installer.log file or the standard output displayed during the installation process. 
+
+   Look for the following confirmation:
    ```bash
    #standard output 
    Installation completed successfully.
@@ -101,31 +103,32 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
     | Any or Gateway | Any | ```<neoedge-central-ip>``` | 8443 
     | Any or Gateway | Any | ```<neoedge-central-ip>``` | 8883
     
+
 ### License Application 
 NeoEdge Central application requires a valid license for use. Please follow these steps to apply: 
 
 1. **Download License Request File:**
    To apply for a license, you must first download a license request file.
 
-<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-request.png" alt="License Request" width="95%" height="auto" align="center" margin="20px">
+<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-request-download.png" alt="License Request" width="95%" height="auto" align="center" margin="20px">
 
 
 ---
 
 📣 **Reminder:**   
-* **Use the latest downloaded license request file:**  If you've generated the license request file multiple times, please use the most recent version for your application, as each generation creates unique license content.s.
+* **Use the latest downloaded license request file:**  If you've generated the license request file multiple times, please use the most recent version for your application, as each generation creates unique license content.
 
 ---
 
 2. **Start Your License Application:**
-    To ensure you receive the correct license, please first decide the number of gateways and advanced apps your deployment requires.
+   To ensure you receive the correct license, please first decide the number of gateways and advanced apps your deployment requires.
 
-    Once you have this information, please have your downloaded license request file ready and contact your ECE sales representative to start your application.
+   Once you have this information, please have your downloaded license request file ready and contact your ECE sales representative to start your application.
 
-    If you have any questions or need further clarification, please don't hesitate to contact us at [sales@ecloudedge.com](mailto:sales@ecloudedge.com).
+   If you have any questions or need further clarification, please don't hesitate to contact us at [sales@ecloudedge.com](mailto:sales@ecloudedge.com).
 
 3. **Install NeoEdge Central License:**
-    After license is issued, please upload the received license key file to install the license and set up the initial user account and password.
+   After license is issued, please upload the received license key file to install the license and set up the initial user account and password.
 
 <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-upload.png" alt="License Upload" width="95%" height="auto" align="central" margin="20px">
 
@@ -138,16 +141,22 @@ NeoEdge Central application requires a valid license for use. Please follow thes
 
 ### Uninstallation Steps  
 
-1.  **Uninstall:**
-    To uninstall NeoEdge Central, run the following command. You'll then be prompted to decide if you want to keep your configuration files, such as your license and data:
+1. **Uninstall:**
+   To uninstall NeoEdge Central, run the following command. You'll then be prompted to decide if you want to keep your configuration files, such as your license and data:
 
     ```bash
     # uninstall NeoEdge Central by executing the following command
     cd /opt/neoedgecentral && sudo ./uninstaller-linux-amd64 
     ```
-
+   
+    ```bash
+    # choose whether to keep you configuration files
+    Do you want to keep the configuration files? (yes/no): 
+    ```
 2. **Verify Successful Uninstallation:**
-    You can confirm that NeoEdge Central has been uninstalled successfully by checking for a specific message in the standard output displayed during the uninstallation process. Look for the following confirmation:
+    You can confirm that NeoEdge Central has been uninstalled successfully by checking for a specific message in the standard output displayed during the uninstallation process. 
+
+    Look for the following confirmation:
 
    ```bash
    #standard output 
@@ -160,11 +169,11 @@ Once the installation is complete, you can access and begin using NeoEdge Centra
 
 ### Basic Usage
 1. **Accessing NeoEdge Central:**
-Open your web browser and navigate to the NeoEdge Central login page using the domain name you specified during installation : 
+Open your web browser and navigate to the NeoEdge Central login page: 
 ```bash
 https://<neoedge-central-domain>/login
 ```
-![Website Screenshot](https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/login.png)
+![Website Screenshot](https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/user-login.png)
     
 
 ### Further Exploration
