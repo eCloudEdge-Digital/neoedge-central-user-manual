@@ -114,7 +114,8 @@ NeoEdge Central application requires a valid license for use. Please follow thes
    https://<neoedge-central-domain>/login
    ```
 
-<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-request-download.png" alt="License Request" width="95%" height="auto" align="center" margin="20px">
+      <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-request-download.png" alt="License Request" width="95%" 
+      height="auto" align="center" margin="20px">
 
 
 ---
@@ -134,14 +135,14 @@ NeoEdge Central application requires a valid license for use. Please follow thes
 3. **Install NeoEdge Central License:**
    After license is issued, please upload the received license key file to install the license and set up the initial user account and password.
 
-<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-upload.png" alt="License Upload" width="95%" height="auto" align="central" margin="20px">
-
-<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/account.png" alt="Set Up Account" width="95%" height="auto" align="central" margin="20px">
+    <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-upload.png" alt="License Upload" width="95%" height="auto" align="central" margin="20px">
+    
+    <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/account.png" alt="Set Up Account" width="95%" height="auto" align="central" margin="40px">
 
 4. **Verify Successful License Installation:**
    You can confirm that license has been installed successfully by seeing the follwoing message:
    
-<img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/setup-final.png" alt="Set Up Successfully" width="95%" height="auto" align="central" margin="20px">
+    <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/setup-final.png" alt="Set Up Successfully" width="95%" height="auto" align="central" margin="20px">
 
 ### Uninstallation Steps  
 
