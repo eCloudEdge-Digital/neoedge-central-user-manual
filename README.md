@@ -107,8 +107,6 @@ NeoEdge Central application requires a valid license for use. Please follow thes
 1. **Download License Request File:**
    To apply for a license, you must first download a license request file.
 
-<!-- ![License Request](https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-request.png) -->
-
 <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-request.png" alt="License Request" width="90%" height="auto" align="center" margin="20px">
 
 
@@ -137,7 +135,25 @@ NeoEdge Central application requires a valid license for use. Please follow thes
 
 ### Uninstallation Steps  
 1.  **Uninstall:**
+    To uninstall NeoEdge Central, run the following command. You'll then be prompted to decide if you want to keep your configuration files, such as your license and data:
 
+    ```bash
+    # uninstall NeoEdge Central by executing the following command
+    cd /opt/neoedgecentral && sudo ./uninstaller-linux-amd64 
+    ```
+
+    ```bash
+    # uninstall NeoEdge Central by executing the following command
+    cd /opt/neoedgecentral && sudo ./uninstaller-linux-amd64 
+    ```
+
+2. **Verify Successful Uninstallation:**
+    You can confirm that NeoEdge Central has been uninstalled successfully by checking for a specific message in the standard output displayed during the uninstallation process. Look for the following confirmation:
+
+   ```bash
+   #standard output 
+   Uninstallation process completed.
+   ``` 
 
 ## Getting Started
 Once the installation is complete, you can access and begin using NeoEdge Central.
