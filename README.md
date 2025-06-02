@@ -75,11 +75,11 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
    Available command line options 
    -h
     Help
-   -domain
+   -domain <domain>
     Required. NeoEdge Central application's domain name, specified as either the IP address of the installed machine or a resolvable DNS domain name associated with it.
-   -loglevel
+   -loglevel <log level>
     Optional (default "error").Log level including error, warn, info, debug. 
-   -mode
+   -mode  <mode>
     Optional (default "cli"). Mode to run the installer,including tui (text-based user interface) or cli (command-line interface). 
    ```
 3. **Verify Successful Installation:**
