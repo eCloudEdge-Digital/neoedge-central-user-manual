@@ -99,9 +99,9 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
     
     | Source IP  | Source Port | Destination IP | Destination Port  
     | --------   | -------- | -------- | -------- | 
-    | Any or your Browser | Any | ```<neoedge-central-ip>``` | 443 
-    | Any or Gateway | Any | ```<neoedge-central-ip>``` | 8443 
-    | Any or Gateway | Any | ```<neoedge-central-ip>``` | 8883
+    | Any or your Browser | Any | ```<neoedge-central-ip>``` | 443/TCP 
+    | Any or Gateway | Any | ```<neoedge-central-ip>``` | 8443/TCP 
+    | Any or Gateway | Any | ```<neoedge-central-ip>``` | 8883/TCP
     
 
 ### License Application 
