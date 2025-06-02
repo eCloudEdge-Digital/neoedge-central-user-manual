@@ -45,7 +45,7 @@ TPM2.0 is mandatory for NeoEdge Central on encrypt and protect essentail data an
 * **Docker& Docker Compose:** 
 Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Compose** installed. 
     - Detailed installation instructions for your specific operating system can be found on the [official Docker website](https://docs.docker.com/engine/install/).
-    - For optimal stability and reliability, we highly recommend using **Docker Engine Version 28.1.1** and **Docker Compose Version v2.35.1**.
+    - For optimal stability and reliability, we highly recommend using **Docker Engine Version 28.1** and **Docker Compose Version v2.35**.
     - You can verify that Docker and Docker Compose version running the following terminal commands.
 
         - For Docker versions prior to 20.10 (Docker Compose V1):
