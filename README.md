@@ -14,7 +14,7 @@ For more information, please visit [NeoEdge Central homepage](https://www.ecloud
     - [Further Exploration](#further-exploration)
 
 
-## Installation (Enterprise Edition)
+## Installation
 
 ### Prerequisites
 Before proceeding with the installation, ensure your system meets the following requirements.
