@@ -59,10 +59,11 @@ Before installing NeoEdge Central Enterprise Edition, ensure you have **Docker E
         docker compose version
         ```
 ### Installation Steps
-1.  **Extract the Installer:**
+1.  **Download and extract the Installer:**
     Unpack the installer.tar.gz archive into a dedicated installer directory using the following command:
 
     ```bash
+    sudo wget https://enterprise-neoedge-installer.s3.ap-northeast-1.amazonaws.com/enterprise-1.0.0/installer.tar.gz
     sudo tar xfvz installer.tar.gz
     ```
 2. **Execute the Installer:**
