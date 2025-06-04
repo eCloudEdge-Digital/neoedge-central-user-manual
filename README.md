@@ -1,4 +1,4 @@
-# NeoEdge Central
+# NeoEdge Central Enterprise Edition
 Integrates OT/IT technologies to enable users to efficiently deploy and manage containerized and edge applications. Whether it's a single site or thousands of edge nodes distributed globally, it provides unified control and real-time updates. This helps enterprises achieve digital transformation with ease, even in large-scale distributed environments.
 
 For more information, please visit [NeoEdge Central homepage](https://www.ecloudedge.com/).
