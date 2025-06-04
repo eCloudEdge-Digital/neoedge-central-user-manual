@@ -14,12 +14,12 @@ For more information, please visit [NeoEdge Central homepage](https://www.ecloud
     - [Further Exploration](#further-exploration)
 
 
-## Installation
+## Installation (Enterprise Edition)
 
 ### Prerequisites
 Before proceeding with the installation, ensure your system meets the following requirements.
 * **OS Requirements:**
-NeoEdge Central is supported on **Linux (amd64 architecture)**.
+NeoEdge Central Enterprise Edition is supported on **Linux (amd64 architecture)**.
     - For optimal stability and reliability, we highly recommend using **Ubuntu 20.04 LTS** and **Ubuntu 22.04 LTS**.
     
     - To verify your OS version, execute the following terminal command:
@@ -37,13 +37,13 @@ The following minimum system specifications are recommended for smooth operation
     | Disk       | 32GB SSD  |
   
 * **TPM2.0 Requirements:**
-TPM2.0 is mandatory for NeoEdge Central on encrypt and protect essentail data and keys. Please ensure your machine or virtual machine is equipped with TPM2.0.
+TPM2.0 is mandatory for NeoEdge Central Enterprise Edition on encrypt and protect essentail data and keys. Please ensure your machine or virtual machine is equipped with TPM2.0.
     - For Azure, please refer to <a href="https://learn.microsoft.com/en-us/azure/virtual-machines/trusted-launch">this doc</a> to enable trusted launch on VM.
     - For AWS, please refer to <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/nitrotpm.html">this doc</a> to enable NitroTPM on EC2.
     - For GCP, please refer to <a href="https://cloud.google.com/compute/shielded-vm/docs/shielded-vm#vtpm">this doc</a> to enable vTPM on GCP VM.
 
 * **Docker& Docker Compose:** 
-Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Compose** installed. 
+Before installing NeoEdge Central Enterprise Edition, ensure you have **Docker Engine and Docker Compose** installed. 
     - Detailed installation instructions for your specific operating system can be found on the [official Docker website](https://docs.docker.com/engine/install/).
     - For optimal stability and reliability, we highly recommend using **Docker Engine Version 28.1** and **Docker Compose Version v2.35**.
     - You can verify that Docker and Docker Compose version running the following terminal commands.
@@ -76,14 +76,14 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
    -h
     Help
    -domain <domain>
-    Required. NeoEdge Central application's domain name, specified as either the IP address of the installed machine or a resolvable DNS domain name associated with it.
+    Required. Domain name of your NeoEdge Central server, specified as either the IP address of the installed machine or a resolvable DNS domain name associated with it.
    -loglevel <log level>
     Optional (default "error").Log level including error, warn, info, debug. 
    -mode <mode>
     Optional (default "cli"). Mode to run the installer,including tui (text-based user interface) or cli (command-line interface). 
    ```
 3. **Verify Successful Installation:**
-   You can confirm that NeoEdge Central has been installed successfully by checking for a specific message in either the installer.log file or the standard output displayed during the installation process. 
+   You can confirm that NeoEdge Central Enterprise Edition has been installed successfully by checking for a specific message in either the installer.log file or the standard output displayed during the installation process. 
 
    Look for the following confirmation:
    ```bash
@@ -95,7 +95,7 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
    ```
 
 4. **Configure Your Firewall:**
-   The following firewall policies are mandatory on your NeoEdge Central host:
+   The following firewall policies are mandatory on your NeoEdge Central server:
     
     | Source IP  | Source Port | Destination IP | Destination Port  
     | --------   | -------- | -------- | -------- | 
@@ -105,7 +105,7 @@ Before installing NeoEdge Central, ensure you have **Docker Engine and Docker Co
     
 
 ### License Application 
-NeoEdge Central application requires a valid license for use. Please follow these steps to apply: 
+NeoEdge Central Enterprise Edition requires a valid license for use. Please follow these steps to apply: 
 
 1. **Download License Request File:**
    To apply for a license, you must first download a license request file. Open your web browser and navigate to the NeoEdge Central license page: 
