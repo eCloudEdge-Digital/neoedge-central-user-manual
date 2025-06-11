@@ -1,0 +1,30 @@
+name: Convert Markdown to PDF
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - dev
+
+env:
+  PDF_FILENAME: neoedge-central-user-manual.pdf  # change this to set your desired output filename
+
+jobs:
+  convert-to-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install pandoc
+        run: sudo apt-get install -y pandoc
+
+      - name: Convert README.md to PDF
+        run: pandoc README.md -o "$PDF_FILENAME"
+
+      - name: Upload PDF as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: readme-pdf
+          path: ${{ env.PDF_FILENAME }}
