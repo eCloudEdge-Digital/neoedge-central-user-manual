@@ -20,7 +20,7 @@ For more information, please visit [NeoEdge Central homepage](https://www.ecloud
 Before proceeding with the installation, ensure your system meets the following requirements.
 * **OS Requirements:**
 NeoEdge Central Enterprise Edition is supported on **Linux (amd64 architecture)**.
-    - For optimal stability and reliability, we highly recommend using **Ubuntu 20.04 LTS** and **Ubuntu 22.04 LTS**.
+    - For optimal stability and reliability, we highly recommend using **Ubuntu 22.04 LTS**.
     
     - To verify your OS version, execute the following terminal command:
     ```bash
@@ -37,7 +37,7 @@ The following minimum system specifications are recommended for smooth operation
     | Disk       | 32GB SSD  |
   
 * **TPM2.0 Requirements:**
-TPM2.0 is mandatory for NeoEdge Central Enterprise Edition on encrypt and protect essentail data and keys. Please ensure your machine or virtual machine is equipped with TPM2.0.
+TPM2.0 is mandatory for NeoEdge Central Enterprise Edition to encrypt and protect essential data and keys. Please ensure your machine or virtual machine is equipped with TPM2.0.
     - For Azure, please refer to <a href="https://learn.microsoft.com/en-us/azure/virtual-machines/trusted-launch">this doc</a> to enable trusted launch on VM.
     - For AWS, please refer to <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/nitrotpm.html">this doc</a> to enable NitroTPM on EC2.
     - For GCP, please refer to <a href="https://cloud.google.com/compute/shielded-vm/docs/shielded-vm#vtpm">this doc</a> to enable vTPM on GCP VM.
@@ -59,14 +59,29 @@ Before installing NeoEdge Central Enterprise Edition, ensure you have **Docker E
         docker compose version
         ```
 ### Installation Steps
-1.  **Download and extract the Installer:**
-    Unpack the installer.tar.gz archive into a dedicated installer directory using the following command:
+1.  **Download NeoEdge Central Installer:**
+    Select and download the NeoEdge Central Installer that matches your needs.
+
+    To download the latest version of NeoEdge Central installer:
+    
+    ```bash
+    sudo wget https://download.ecloudedge.com/neoedge/latest/installer.tar.gz
+    ```
+    To download a specific version of NeoEdge Central installer:
 
     ```bash
-    sudo wget https://enterprise-neoedge-installer.s3.ap-northeast-1.amazonaws.com/enterprise-1.0.0/installer.tar.gz
+    sudo wget https://download.ecloudedge.com/neoedge/neoedge-central-version/installer.tar.gz
+    ```
+    Replace `neoedge-central-version` with the specific version for installation. For example, https://download.ecloudedge.com/neoedge/enterprise-1.0.0/installer.tar.gz.
+    
+
+2.  **Extract the Installer:**
+    Unpack the installer.tar.gz archive into a dedicated installer directory using the following command:
+    
+    ```bash
     sudo tar xfvz installer.tar.gz
     ```
-2. **Execute the Installer:**
+3. **Execute the Installer:**
    Navigate into the newly created installer directory and run the installer-linux-amd64 executable. The estimated installation time is approximately 10 minutes:
    ```bash
    cd installer
@@ -83,7 +98,7 @@ Before installing NeoEdge Central Enterprise Edition, ensure you have **Docker E
    -mode <mode>
     Optional (default "cli"). Mode to run the installer,including tui (text-based user interface) or cli (command-line interface). 
    ```
-3. **Verify Successful Installation:**
+4. **Verify Successful Installation:**
    You can confirm that NeoEdge Central Enterprise Edition has been installed successfully by checking for a specific message in either the installer.log file or the standard output displayed during the installation process. 
 
    Look for the following confirmation:
@@ -115,7 +130,7 @@ NeoEdge Central Enterprise Edition requires a valid license for use. Please foll
    https://<neoedge-central-domain>/license
    ```
 
-      <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-request-download.png" alt="License Request" width="95%" 
+      <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-request.png" alt="License Request" width="95%" 
       height="auto" align="center" margin="20px">
 
 
