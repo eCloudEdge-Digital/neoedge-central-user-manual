@@ -72,7 +72,7 @@ Before installing NeoEdge Central Enterprise Edition, ensure you have **Docker E
     ```bash
     sudo wget https://download.ecloudedge.com/neoedge/neoedge-central-version/installer.tar.gz
     ```
-    Replace `neoedge-central-version` with the specific version for installation. For example, https://download.ecloudedge.com/neoedge/enterprise-1.0.0/installer.tar.gz.
+    Replace `neoedge-central-version` with the specific version for installation. For example, `https://download.ecloudedge.com/neoedge/enterprise-1.0.0/installer.tar.gz`.
     
 
 2.  **Extract the Installer:**
@@ -151,7 +151,7 @@ NeoEdge Central Enterprise Edition requires a valid license for use. Please foll
 3. **Install NeoEdge Central License:**
    After license is issued, please upload the received license key file to install the license and set up the initial user account and password.
 
-    <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-upload.png" alt="License Upload" width="95%" height="auto" align="central" margin="20px">
+    <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-file-upload.png" alt="License Upload" width="95%" height="auto" align="central" margin="20px">
     
     <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/add-account.png" alt="Set Up Account" width="95%" height="auto" align="central" margin="40px">
 
