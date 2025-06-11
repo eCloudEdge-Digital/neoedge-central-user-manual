@@ -127,8 +127,9 @@ NeoEdge Central Enterprise Edition requires a valid license for use. Please foll
    To apply for a license, you must first download a license request file. Open your web browser and navigate to the NeoEdge Central license page: 
   
    ```bash
-   https://<neoedge-central-domain>/license
+   https://neoedge-central-domain/license
    ```
+    Replace `neoedge-central-domain` with the domain name of your neoedge central server.
 
       <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/license-request.png" alt="License Request" width="95%" 
       height="auto" align="center" margin="20px">
@@ -191,11 +192,15 @@ Once the installation is complete, you can access and begin using NeoEdge Centra
 ### Basic Usage
 1. **Accessing NeoEdge Central:**
 Open your web browser and navigate to the NeoEdge Central login page: 
+
 ```bash
-https://<neoedge-central-domain>/login
+https://neoedge-central-domain/login
 ```
+Replace `neoedge-central-domain` with the domain name of your neoedge central server.
+
 ![Website Screenshot](https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/user-login.png)
     
+
 
 ### Further Exploration
 
