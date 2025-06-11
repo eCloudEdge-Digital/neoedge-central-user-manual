@@ -35,6 +35,7 @@ The following minimum system specifications are recommended for smooth operation
     | CPU        | 4 cores (Intel XeonCPU E5-2673 v3 @ 2.40GHz)| 
     | RAM        | 16 GB   | 
     | Disk       | 32GB SSD  |
+With the above resources, it would be easy to support 10,000 IoT gateways connected and sending messages simultaneously at a rate of one message per second.
   
 * **TPM2.0 Requirements:**
 TPM2.0 is mandatory for NeoEdge Central Enterprise Edition to encrypt and protect essential data and keys. Please ensure your machine or virtual machine is equipped with TPM2.0.
