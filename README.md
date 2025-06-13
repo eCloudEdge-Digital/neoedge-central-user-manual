@@ -35,6 +35,8 @@ The following minimum system specifications are recommended for smooth operation
     | CPU        | 4 cores (Intel XeonCPU E5-2673 v3 @ 2.40GHz)| 
     | RAM        | 16 GB   | 
     | Disk       | 32GB SSD  |
+
+  With the above resources, it would be easy to support 10,000 IoT gateways connected and sending messages simultaneously at a rate of one message per second.
   
 * **TPM2.0 Requirements:**
 TPM2.0 is mandatory for NeoEdge Central Enterprise Edition to encrypt and protect essential data and keys. Please ensure your machine or virtual machine is equipped with TPM2.0.
@@ -62,17 +64,17 @@ Before installing NeoEdge Central Enterprise Edition, ensure you have **Docker E
 1.  **Download NeoEdge Central Installer:**
     Select and download the NeoEdge Central Installer that matches your needs.
 
-    To download the latest version of NeoEdge Central installer:
+    - To download the latest version of NeoEdge Central installer:
     
     ```bash
     sudo wget https://download.ecloudedge.com/neoedge/latest/installer.tar.gz
     ```
-    To download a specific version of NeoEdge Central installer:
+    - To download a specific version of NeoEdge Central installer:
 
     ```bash
     sudo wget https://download.ecloudedge.com/neoedge/neoedge-central-version/installer.tar.gz
     ```
-    Replace `neoedge-central-version` with the specific version for installation. For example, `https://download.ecloudedge.com/neoedge/enterprise-1.0.0/installer.tar.gz`.
+    Replace `neoedge-central-version` with the specific version for installation. For example, `https://download.ecloudedge.com/neoedge/1.0.0/installer.tar.gz`.
     
     For a list of available versions, refer to the [Neoedge Enterprise Edition release notes](https://www.ecloudedge.com/neoedge-central-enterprise-edition-release-notes/).
     
