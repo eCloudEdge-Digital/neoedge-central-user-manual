@@ -74,7 +74,8 @@ Before installing NeoEdge Central Enterprise Edition, ensure you have **Docker E
     ```
     Replace `neoedge-central-version` with the specific version for installation. For example, `https://download.ecloudedge.com/neoedge/enterprise-1.0.0/installer.tar.gz`.
     
-
+    For a list of available versions, refer to the [Neoedge Enterprise Edition release notes](https://www.ecloudedge.com/neoedge-central-enterprise-edition-release-notes/).
+    
 2.  **Extract the Installer:**
     Unpack the installer.tar.gz archive into a dedicated installer directory using the following command:
     
