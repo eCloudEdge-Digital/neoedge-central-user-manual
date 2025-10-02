@@ -106,7 +106,7 @@ Before installing NeoEdge Central Enterprise Edition, ensure you have **Docker E
    -------
    📣 **Reminder:** 
     Slow server response can lead to a timeout error, which appears in the log as shown below and causes the installation to fail.
-    <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/test/readme-images/timeout-error.png" alt="timeout error" width="95%" height="auto" align="central" margin="20px">
+    <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/timeout-error.png" alt="timeout error" width="95%" height="auto" align="central" margin="20px">
    **Solution:** Uninstall NeoEdge Central, then reinstall it with an increased -retries parameter value.
 
 
