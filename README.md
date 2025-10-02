@@ -72,7 +72,7 @@ Before installing NeoEdge Central Enterprise Edition, ensure you have **Docker E
     - To download a specific version of NeoEdge Central installer:
 
     ```bash
-    sudo wget https://download.ecloudedge.com/neoedge/neoedge-central-version/installer.tar.gz
+    sudo wget https://download.ecloudedge.com/neoedge/<neoedge-central-version>/installer.tar.gz
     ```
     Replace `neoedge-central-version` with the specific version for installation. For example, `https://download.ecloudedge.com/neoedge/1.0.0/installer.tar.gz`.
     
@@ -99,8 +99,19 @@ Before installing NeoEdge Central Enterprise Edition, ensure you have **Docker E
    -loglevel <log level>
     Optional (default "error").Log level including error, warn, info, debug. 
    -mode <mode>
-    Optional (default "cli"). Mode to run the installer,including tui (text-based user interface) or cli (command-line interface). 
+    Optional (default "cli"). Mode to run the installer,including tui (text-based user interface) or cli (command-line interface).
+   -retries <how many times> 
+    Optional (default 60). Maximum retry attempts. 
    ```
+   -------
+   📣 **Reminder:** 
+   - Slow server response can lead to a timeout error, which manifests in the log like below and cause the installation to fail.
+    <img src="https://github.com/eCloudEdge-Digital/neoedge-central-user-manual/raw/dev/readme-images/timeout-error.png" alt="timeout error" width="95%" height="auto" align="central" margin="20px">
+   - Solution: Uninstall NeoEdge Central and increase the value of the -retries parameter before attempting the installation again.
+
+
+   
+
 4. **Verify Successful Installation:**
    You can confirm that NeoEdge Central Enterprise Edition has been installed successfully by checking for a specific message in either the installer.log file or the standard output displayed during the installation process. 
 
