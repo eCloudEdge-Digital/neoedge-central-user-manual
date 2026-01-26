@@ -88,7 +88,7 @@ Before installing NeoEdge Central Enterprise Edition, ensure you have **Docker E
    Navigate into the newly created installer directory and run the installer-linux-amd64 executable. The estimated installation time is approximately 10-15 minutes:
    ```bash
    cd installer
-   sudo ./installer-linux-amd64 -domain <domain> 
+   sudo ./installer-linux-amd64 -domain <domain>  -retries 200
    ```
    ```text
    Available command line options 
