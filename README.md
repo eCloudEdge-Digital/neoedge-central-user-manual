@@ -62,32 +62,20 @@ Before installing NeoEdge Central Enterprise Edition, ensure you have **Docker E
         ```
 ### Installation Steps
 1.  **Download NeoEdge Central Installer:**
-    Select and download the NeoEdge Central Installer that matches your needs.
+    Download and extract the latest NeoEdge Central installation package.
+    
+    ```bash
 
-    - To download the latest version of NeoEdge Central installer:
-    
-    ```bash
-    sudo wget https://download.ecloudedge.com/neoedge/latest/installer.tar.gz
+    wget https://download.ecloudedge.com/neoedge/latest/installer.tar.gz
+    tar xfz installer.tar.gz
+    rm installer.tar.gz
+    cd installer
     ```
-    - To download a specific version of NeoEdge Central installer:
-
-    ```bash
-    sudo wget https://download.ecloudedge.com/neoedge/<neoedge-central-version>/installer.tar.gz
-    ```
-    Replace `neoedge-central-version` with the specific version for installation. For example, `https://download.ecloudedge.com/neoedge/1.0.0/installer.tar.gz`.
-    
-    For a list of available versions, refer to the [NeoEdge Central Enterprise Edition release notes](https://www.ecloudedge.com/neoedge-central-enterprise-edition-release-notes/).
-    
-2.  **Extract the Installer:**
-    Unpack the installer.tar.gz archive into a dedicated installer directory using the following command:
-    
-    ```bash
-    sudo tar xfvz installer.tar.gz
-    ```
-3. **Execute the Installer:**
-   Navigate into the newly created installer directory and run the installer-linux-amd64 executable. The estimated installation time is approximately 10-15 minutes:
+   
+2. **Execute the Installer:**
+   Run the installer-linux-amd64 executable. The estimated installation time is approximately 15-20 minutes:
    ```bash
-   cd installer
+  
    sudo ./installer-linux-amd64 -domain <domain>  -retries 200
    ```
    ```text
@@ -141,7 +129,7 @@ NeoEdge Central Enterprise Edition requires a valid license for use. Please foll
    To apply for a license, you must first download a license request file. Open your web browser and navigate to the NeoEdge Central license page: 
   
    ```bash
-   https://neoedge-central-domain/license
+   https://<neoedge-central-domain>/license
    ```
     Replace `neoedge-central-domain` with the domain name of your neoedge central server.
 
@@ -208,7 +196,7 @@ Once the installation is complete, you can access and begin using NeoEdge Centra
 Open your web browser and navigate to the NeoEdge Central login page: 
 
 ```bash
-https://neoedge-central-domain/login
+https://<neoedge-central-domain>/login
 ```
 Replace `neoedge-central-domain` with the domain name of your neoedge central server.
 
